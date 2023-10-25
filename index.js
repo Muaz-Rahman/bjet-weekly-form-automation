@@ -1,9 +1,7 @@
 const puppeteer = require('puppeteer-core');
 const dotenv = require("dotenv").config();
-const readline = require('readline');
-const questions = require('./answers')
+const questions = require('./answers');
 
-let goodPoint = questions.goodPoint;
 
 (async () => {
     try {
