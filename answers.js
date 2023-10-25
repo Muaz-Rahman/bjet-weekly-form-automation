@@ -8,9 +8,9 @@ const understandabilityLevel = {
 
 const week = "4"
 
-const attendanceArray = ["20", "20", "20", "20"]  //Present Delay Skip Absent
+const attendanceArray = ["17", "0", "0", "1"]  //Present Delay Skip Absent
 
-const dailyQuizArray = ["20", "20", "20", "20", "20"] //Mon-Fri
+const dailyQuizArray = ["20", "20", "20", "20", "17"] //Mon-Fri
 
 const weeklyWritten = "49" //Out of 50
 
