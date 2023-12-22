@@ -6,18 +6,18 @@ const understandabilityLevel = {
     5: '5(easy to understand)'
 }
 
-const week = "4"
+const week = "10"
 
-const attendanceArray = ["17", "0", "0", "1"]  //Present Delay Skip Absent
+const attendanceArray = ["18", "0", "0", "2"]  //Present Delay Skip Absent
 
-const dailyQuizArray = ["20", "20", "20", "20", "17"] //Mon-Fri
+const dailyQuizArray = ["20", "18", "19", "19", "19"] //Mon-Fri 
 
-const weeklyWritten = "49" //Out of 50
+const weeklyWritten = "47" //Out of 50
 
-const weeklyOral = "18" //Out of 20
+const weeklyOral = "14" //Out of 20
 
-const goodPoint = "I am batman"
+const goodPoint = "Learned more kanjis and improved reading speed"
 
-const improvementGoal = "Becoming a better batman"
+const improvementGoal = "To be able to read and write more kanji and increase reading speed"
 
-module.exports = {understandabilityLevel, attendanceArray, dailyQuizArray, weeklyWritten, weeklyOral, goodPoint, improvementGoal, week}
+module.exports = { understandabilityLevel, attendanceArray, dailyQuizArray, weeklyWritten, weeklyOral, goodPoint, improvementGoal, week }
